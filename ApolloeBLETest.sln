@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLETestApollo", "BLETestApollo\BLETestApollo.csproj", "{7B00EDDA-5FB9-47A0-99FA-5DAE4BF5A33D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.Service", "Apollo.Service\Apollo.Service.csproj", "{5FA58CC7-6D9C-4802-A425-A2E3330E9DA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.Web", "Apollo.Web\Apollo.Web.csproj", "{5DDE756B-6068-4D01-AA94-C0C0EABE84ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B00EDDA-5FB9-47A0-99FA-5DAE4BF5A33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B00EDDA-5FB9-47A0-99FA-5DAE4BF5A33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B00EDDA-5FB9-47A0-99FA-5DAE4BF5A33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B00EDDA-5FB9-47A0-99FA-5DAE4BF5A33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA58CC7-6D9C-4802-A425-A2E3330E9DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA58CC7-6D9C-4802-A425-A2E3330E9DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA58CC7-6D9C-4802-A425-A2E3330E9DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA58CC7-6D9C-4802-A425-A2E3330E9DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDE756B-6068-4D01-AA94-C0C0EABE84ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDE756B-6068-4D01-AA94-C0C0EABE84ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDE756B-6068-4D01-AA94-C0C0EABE84ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDE756B-6068-4D01-AA94-C0C0EABE84ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9DEC0C4-DACA-46DC-912F-D94F792C0750}
+	EndGlobalSection
+EndGlobal
