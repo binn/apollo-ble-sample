@@ -1,6 +1,7 @@
 using Apollo.Service.Bluetooth;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
@@ -22,6 +23,11 @@ namespace Apollo.Service
                 services.Configure<ApolloOptions>(options =>
                     options.ServiceURL = serviceUrl);
             });
+
+            builder.ConfigureLogging(builder => builder
+                .AddConsole()
+                .AddFile("Logs/Apollo.Service-{Date}.txt")
+            );
 
             IHost host = builder.Build();
             await host.RunAsync();
