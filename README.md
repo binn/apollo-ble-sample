@@ -5,4 +5,5 @@ This repository controls LED strips controlled via the "Apollo Lighting" app, an
 Explore the files to figure out what it does and how it works.
 
 Proper publish technique for `Apollo.Service`:
+
 `dotnet publish -c Release -p:PublishSingleFile=true -r win-x64 --no-self-contained`
