@@ -20,3 +20,4 @@ Command to add and/or update the service to Windows:
 
 Todo:
 - Implement fade states.
+- Fix the log file folder
